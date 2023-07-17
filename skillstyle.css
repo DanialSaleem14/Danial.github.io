@@ -1,0 +1,230 @@
+/* <!--Portfolio Website CSS  */
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  background: #000;
+
+
+  
+}
+
+button{
+margin: 30px;
+background-color: blue;
+box-sizing: border-box;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 10px;
+transition-duration: 0.4s;
+outline: none;
+font-family: 'Merriweather', serif;
+font-size: 20px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+}
+
+h1{
+  color: #66BFBF;
+  line-height: 1;
+  margin-top: 0;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-family: 'Courier New', monospace;
+  font-size: 25px;
+  color: #66BFBF;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.top-container{
+  background-color:#E4F9F5 ;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  position: relative;
+}
+
+.small {
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #66BFBF;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Project-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Project-row div {
+  width: 30%;
+  padding: 0 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin: 0 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.bottom-container {
+  position: relative;
+  padding-bottom: 100px;
+  background-color: #E4F9F5;
+  padding-top: 0px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.language-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  max-width: 1200px;
+}
+
+
+
+.language-row div {
+  width: 30%;
+  padding: 0 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  margin: 50px; /* Updated margin-top value */
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.skill-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -40px;
+  text-align: center;
+  color: #66BFBF;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.skill-row div {
+  width: 30%;
+  padding: 0 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin: 0 30px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+  color: #66BFBF;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
